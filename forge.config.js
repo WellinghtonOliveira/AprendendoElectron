@@ -1,6 +1,9 @@
 const { FusesPlugin } = require('@electron-forge/plugin-fuses');
 const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 
+require('dotenv').config();
+
+
 module.exports = {
   publishers: [
     {
